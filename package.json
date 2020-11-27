@@ -1,50 +1,22 @@
 {
-  "_from": "tofont.js@^1.1.6",
-  "_id": "tofont.js@1.1.7",
-  "_inBundle": false,
-  "_integrity": "sha512-ZaJKmeBSmNAWP/vMO+G89QdEiI7LivtVbUtcrh6FI2e6JxV7rwDtP+psGhuZlz6E/MF6FqEUqPuv2YJUtVOsdg==",
-  "_location": "/tofont.js",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "tofont.js@^1.1.6",
-    "name": "tofont.js",
-    "escapedName": "tofont.js",
-    "rawSpec": "^1.1.6",
-    "saveSpec": null,
-    "fetchSpec": "^1.1.6"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/tofont.js/-/tofont.js-1.1.7.tgz",
-  "_shasum": "0013d47a821d40f998343507d37335f687131ce1",
-  "_spec": "tofont.js@^1.1.6",
-  "_where": "/Users/tony/textLayouter/tmb-book",
-  "author": "",
-  "bundleDependencies": false,
-  "dependencies": {
-    "express": "^4.17.1",
-    "lodash": "^4.17.15",
-    "opentype.js": "^1.1.0"
-  },
-  "deprecated": false,
-  "description": "",
-  "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/node": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "@babel/register": "^7.8.3"
-  },
-  "keywords": [],
-  "license": "ISC",
-  "main": "index.js",
   "name": "tofont.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js --config=./cfg.yml",
-    "test": "babel-node test.js --config=./cfg.yml"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.7"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyJR/TOFont.js.git"
+  },
+  "keywords": [
+    "tofont"
+  ],
+  "author": "TonyJR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyJR/TOFont.js/issues"
+  },
+  "homepage": "https://github.com/TonyJR/TOFont.js#readme"
 }

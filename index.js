@@ -1,5 +1,3 @@
-import { Font } from "./src/TOFont";
-var opentype = require('opentype.js');
-
-var font = opentype.loadSync("./WaWaTi-3.ttf")
-
+import { Font, Paragraph } from "./src/TOFont";
+exports.Font = Font;
+exports.Paragraph = Paragraph;
